@@ -1,0 +1,1054 @@
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+}
+
+img{
+  max-width: 100%;
+  object-fit: cover;
+  overflow-x: hidden;
+}
+
+.app {
+  height: auto;
+}
+
+.home {
+  height: auto;
+  max-width : 100%;
+  overflow-x: hidden;
+}
+
+.main_page{
+  background-image: url(./images/top-banner.jpg)  ; 
+  max-width: 100%;  
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+}
+
+.main_page::after{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2; 
+  color: white;
+  width: 100%;
+  gap: 15px;
+}
+
+
+/* HOME SECTION- MAIN PAGE */
+
+.main_section {
+  background-image: url(./images/MAIN_BG.webp);
+  width: 100%;
+  height: 94.8vh;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+  top:0;
+  left: 0;
+  right: 0;
+}
+
+
+/* Navbar styling */
+
+.scrolled{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  background-color: #222;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.5s ;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* .main_section img {
+  transition: opacity 0.3s ease;
+  opacity: 1;
+} */
+
+.main_section .scrolled img {
+  opacity: 0; /* Hide logo on scroll */
+}
+
+
+
+
+.navbar a {
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: small;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+
+.nav_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+}
+
+.nav_section hr {
+  width: 100%;
+  opacity: 25%;
+}
+
+.main_description_section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.main_description_section span {
+  letter-spacing: 3px;
+  font-size: small;
+}
+
+.main_description_section h1 {
+  font-size: 4em;
+  padding: 0px;
+  margin: 15px 0px;
+}
+
+.main_description_section p {
+  width: 47%;
+  color: #fff;
+}
+
+.checkOurMenu_button {
+  margin-top: 25px;
+}
+
+.common_button {
+  max-width: 150px;
+  padding: 14px 18px 14px 18px;
+  background-color: #f42f2c;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center
+}
+
+.common_button:hover {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  background-color: black;
+}
+
+/* HOME SECTION - ABOUT SECTION */
+
+.about_section {
+  width: 97.65%;
+  height: 100vh;
+}
+
+.about_top {
+  display: flex;
+  flex-direction: row;
+  padding: 120px 0;
+}
+
+.about_description_section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 55px;
+}
+
+.about_description_section p {
+  width: 90%;
+  color: #777;
+}
+
+.about_top_image_section {
+  width: 50%;
+  text-align: center;
+}
+
+.view_full_menu_button:hover {
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+
+/* HOME SECTION - MENU SECTION */
+
+.menu_section {
+  background: #f9f9ff;
+}
+
+.menu_navbar_section {
+  width: 97.65%;
+  height: auto;
+  padding-top: 55px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.menu_header_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meu_header_section p {
+  margin: auto;
+}
+
+.menunavbar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.2);
+  height: 100px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menunavbar ul li {
+  padding: 0;
+  color: #222;
+  font-size: 12px;
+  font-weight: 500;
+  list-style-type: none;
+  font-size: medium;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.menunavbar ul li button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0;
+  transition: background-color 0.3s;
+  color: black;
+}
+
+
+.menunavbar ul li.active {
+  background-color: #f42f2c;
+}
+
+/* MENU CARD STYLE */
+
+.menu_card_section {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+
+.menu_card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.uppersection_menu_card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  color: red;
+}
+
+/* Menu form section */
+
+.menu_form_section {
+  height: 120vh;
+  background-image: url("./images/menu_section_background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  backface-visibility: 50%;
+  display: flex;
+  padding-left: 45px;
+  padding-right: 45px;
+  justify-content: space-between;
+  gap: 25px;
+  position: relative;
+}
+
+.menu_form_section::before {
+  content: "";
+  /* Required for pseudo-elements */
+  position: absolute;
+  /* Position it absolutely within the section */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust color and opacity to make it dull */
+  pointer-events: none;
+  /* Allows clicks to pass through the overlay */
+  z-index: 1;
+  /* Ensure it sits above the background but below any text */
+}
+
+.menu_form_section>* {
+  position: relative;
+  /* Position content above the overlay */
+  z-index: 1;
+  /* Ensure content is visible above the overlay */
+}
+
+
+.menu_form_description_part {
+  color: white;
+  justify-content: center;
+  width: 50%;
+  display: flex;
+  flex: 0 0 50%;
+  flex-direction: column;
+}
+
+.menu_form_description_part h1 {
+  font-size: 35px;
+}
+
+.menu_form_description_part p {
+  width: 100%;
+}
+
+.menu_form_form_part {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #fff;
+  padding: 100px 40px;
+  width: 60%;
+  text-align: center;
+}
+
+.menu_form input,select {
+  border-radius: 0px;
+  margin-bottom: 10px;
+  border-color: #eeeeee;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0.575rem 0.75rem;
+  color: #999999;
+  box-shadow: none;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.menu_form select{
+  cursor: pointer;
+}
+
+.form_button{
+  margin: auto;
+  max-width: 200px;
+  border: none;
+}
+
+/* Home Page Gallery Section */
+
+.gallery_section{
+  padding-top: 130px;
+}
+
+.gallery_top{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+}
+
+.gallery_image_section{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px ;
+}
+
+.gallery_image_section img{
+  width: 340px ;
+  height: 340px;
+}
+
+/* Home Section Review Section */
+
+.review_section{
+  background: url('./images/review-bg.jpg.webp');
+}
+
+.review{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; 
+  overflow: hidden;
+  position: relative;
+}
+
+.single_review {
+  text-align: center;
+  padding: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.single_review img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.single_review h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.star {
+  margin-bottom: 10px;
+}
+
+.fa-star {
+  color: #f4c150; /* Star color */
+}
+
+
+.checked {
+  color: orange;
+}
+
+.review-slider p {
+  font-size: 16px;
+  color: #555;
+} 
+
+.review-nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.active-dot {
+  background-color: #f42f2c; /* Active dot color */
+}
+
+/* HOME SECTION BLOG SECTION */
+
+.blog_top{
+  height: 110vh;
+}
+
+.blog_lower_section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:5px;
+}
+
+.single_blog{
+  width:20%;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.single_blog img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.single_blog h4 a{
+  color: #333;
+  text-decoration: none;
+}
+
+.single_blog .reactions{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color:#777;
+}
+
+.blog_top{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog_header_section{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+/* Home section contact section */
+
+
+.contact_top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f42f2c;
+  padding: 20px;
+  gap: 20px;
+  color: white;
+  height: 70vh;
+  align-items: center;
+}
+
+/* Styling for the hour section */
+
+
+.hour_section {
+  flex: 1;
+  background-color: #f42f2c;
+  padding: 20px;
+  text-align: center;
+}
+
+.hour_section span {
+  display: block;
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.hour_section hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 15px 0;
+}
+
+/* Styling for contact information */
+.contact_us_section {
+  flex: 1;
+  background-color: #f42f2c;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.contact_us_section .number {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Styling for the newsletter section */
+
+
+.newsletter_section {
+  flex: 1;
+  background-color: #f42f2c;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter_section p {
+  margin-bottom: 15px;
+}
+
+.email_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 1px;
+}
+
+.email_bar input[type='email'] {
+  flex: 1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 25px;
+  outline: none;
+}
+
+.email_bar button {
+  background-color: #f42f2c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.email_bar button:hover {
+  background-color: #e22b28;
+}
+
+.email_bar .material-symbols-outlined {
+  font-size: 18px;
+  color: white;
+}
+
+.loading_message {
+  margin-top: 10px;
+  color: #f42f2c;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* home section Footer Section */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222; 
+  color: #fff; 
+  text-align: center; 
+  padding: 10px 25px; 
+  font-size: 14px; 
+  font-family: 'Arial', sans-serif; 
+}
+
+.footer p {
+  margin: 0; /* No margin for paragraph */
+  font-size: 14px; /* Text size */
+}
+
+.social_section {
+  list-style: none; /* Remove default bullet points from the list */
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center the icons */
+  gap: 15px; /* Space between icons */
+  padding: 0; /* Remove padding */
+  margin-top: 15px; /* Add margin on top */
+}
+
+.social_section li {
+  display: inline-block; /* Make the list items inline */
+}
+
+.social_section a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* White icon color */
+  font-size: 18px; /* Icon size */
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.social_section a:hover {
+  color: #f42f2c;
+  cursor: pointer;
+}
+
+.social_section i {
+  transition: transform 0.3s ease; /* Animation for icon */
+}
+
+.social_section a:hover i {
+  transform: scale(1.2); /* Scale up the icon on hover */
+}
+
+
+/*  */
+/*  */
+
+/* ABOUT PAGE */
+
+.service_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  gap: 45px;
+}
+
+.service_section_content_section {
+  display: flex; /* Flexbox to arrange items in a row */
+  justify-content: space-between; /* Adds equal space between the items */
+  align-items: flex-start; /* Aligns the items to the top */
+  gap: 20px; /* Space between each content block */
+  padding: 20px; /* Padding around the content section */
+}
+
+.single_content {
+  flex: 1; /* Allows each content block to take equal space */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Centers the text */
+}
+
+.single_content img {
+  width: 100%; /* Full width for the image */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  border-radius: 8px; /* Same rounding for images */
+}
+
+.single_content h3 {
+  font-size: 1.5rem;
+  margin: 10px 0; /* Space between the heading and the content */
+}
+
+.single_content p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.single_content a {
+  text-decoration: none; /* Removes underline from links */
+
+}
+
+.single_content a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+
+/* CONTACT PAGE- MESSAGE SECTION */
+
+.message_section {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
+  padding: 45px; 
+  margin-top: 20px; 
+  background-color: #f9f9ff;
+  width: 92.66%;
+
+}
+
+.address_section {
+  flex-basis: 30%; /* Address section takes up 30% */
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+.sub_address_section {
+  display: flex; 
+  align-items: center; 
+  gap: 15px; 
+}
+
+.sub_address_section span {
+  font-size: 1.5rem; 
+  color: #f42f2c; /* Customize icon color */
+}
+
+.message_form {
+  flex-basis: 55%; /* Form section takes up 70% */
+  display: flex; 
+  flex-direction: column; /* Stack inputs vertically */
+  gap: 5px; /* Space between input fields */
+}
+
+.left_message_side {
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+.left_message_side input, 
+textarea {
+  width: 100%; 
+  padding: 10px; 
+  font-size: 1rem; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+textarea {
+  height: 100px; /* Fixed height for textarea */
+  resize: none; /* Prevent resizing */
+}
+
+.message_button {
+  padding: 12px 20px; 
+  background-color: #f42f2c; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-top: 10px; /* Space above button */
+}
+
+.message_button:hover {
+  background-color:black; 
+}
+
+/* Add responsiveness for smaller screens */
+@media screen and (max-width: 768px) {
+  .message_section {
+    flex-direction: column; /* Stack vertically on small screens */
+  }
+
+  .address_section,
+  .message_form {
+    flex-basis: 100%; /* Both sections take full width */
+  }
+}
+
+
+/* RESPONSIVENESS */
+
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .app,
+  .home,
+  .main_page,
+  .main_section,
+  .about_section,
+  .menu_navbar_section,
+  .review,
+  .blog_top,
+  .contact_top {
+    width: 100%; /* Make full width on smaller screens */
+    overflow-x: hidden;
+  }
+
+  .main_description_section h1 {
+    font-size: 2.5em; /* Smaller font for main title */
+  }
+
+  .main_description_section p {
+    width: 100%; /* Full width for main description */
+    overflow-x: hidden;
+  }
+
+  .about_top {
+    flex-direction: column; /* Stack about section columns vertically */
+    padding: 60px 15px;
+  }
+
+  .about_description_section,
+  .about_top_image_section {
+    width: 100%; /* Full width for each section */
+    padding: 15px;
+    overflow-x: hidden;
+  }
+
+  .menu_card_section {
+    grid-template-columns: 1fr; /* Single column for menu cards */
+  }
+
+  .gallery_image_section {
+    grid-template-columns: 1fr 1fr; /* Two columns in the gallery */
+  }
+
+  .contact_top {
+    flex-direction: column; /* Stack contact section vertically */
+    height: auto; /* Adjust height */
+    padding: 20px;
+  }
+
+  .menu_form_section {
+    flex-direction: column; /* Stack form section vertically */
+    padding: 15px;
+  }
+
+  .menu_form {
+    width: 80%; /* Reduce form width */
+  }
+
+  .blog_lower_section {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .single_blog {
+    width: 45%; /* Adjust blog card width */
+  }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media screen and (max-width: 480px) {
+  .main_description_section h1 {
+    font-size: 2em; /* Smaller font for main title */
+  }
+
+  .main_description_section p,
+  .menu_card_section p,
+  .single_blog p {
+    font-size: 0.9em; /* Adjust font size */
+  }
+
+  .navbar a {
+    padding: 8px;
+    font-size: 0.8em; /* Smaller font in navbar */
+  }
+
+  .main_description_section span,
+  .main_description_section p {
+    width: 100%; /* Full width for texts */
+    font-size: small;
+  }
+
+  .menu_card_section {
+    gap: 10px; /* Smaller gap between cards */
+  }
+
+  .gallery_image_section {
+    grid-template-columns: 1fr; /* Single column in gallery */
+  }
+
+  .single_blog {
+    width: 100%; /* Full width for blog card */
+    overflow-x: hidden;
+  }
+
+  .message_section {
+    padding: 20px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .address_section,
+  .message_form {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .menu_form {
+    padding: 50px 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* For extra-small screens (320px) */
+@media screen and (max-width: 320px) {
+  .main_description_section h1 {
+    font-size: 1.5em; /* Further reduce title font */
+  }
+
+  .navbar a {
+    padding: 5px;
+    font-size: 0.7em; /* Smaller font in navbar */
+  }
+
+  .common_button,
+  .form_button,
+  .message_button {
+    padding: 10px 15px; /* Smaller padding for buttons */
+    font-size: 0.8em;
+  }
+
+  .contact_top {
+    padding: 10px;
+  }
+
+  .email_bar input[type="email"] {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .email_bar button {
+    padding: 5px;
+  }
+
+  .footer p,
+  .footer a {
+    font-size: 12px; /* Smaller font in footer */
+  }
+
+  .social_section {
+    gap: 10px; /* Smaller gap between icons */
+  }
+}
+
+/* Breadcrumbs */
+
+.crumb a{
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+
+.breadcrumbs_nav span{
+  display: flex;
+}
+
