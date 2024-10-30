@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/github.io/marcoproject/static/css/main.724faed8.css",
+    "main.js": "/github.io/marcoproject/static/js/main.00f663be.js",
+    "static/js/453.4123e5dc.chunk.js": "/github.io/marcoproject/static/js/453.4123e5dc.chunk.js",
+    "static/media/fa-solid-900.ttf": "/github.io/marcoproject/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/menu_section_background.webp": "/github.io/marcoproject/static/media/menu_section_background.1a53bb8c0f44fba84e63.webp",
+    "static/media/fa-brands-400.ttf": "/github.io/marcoproject/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/MAIN_BG.webp": "/github.io/marcoproject/static/media/MAIN_BG.5f33661d33dd6c869e7c.webp",
+    "static/media/fa-solid-900.woff2": "/github.io/marcoproject/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/github.io/marcoproject/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/top-banner.jpg": "/github.io/marcoproject/static/media/top-banner.4be64b386185526d7b14.jpg",
+    "static/media/review-bg.jpg.webp": "/github.io/marcoproject/static/media/review-bg.jpg.23cb6c7ab93568ee1142.webp",
+    "static/media/fa-regular-400.ttf": "/github.io/marcoproject/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/about_burger_img.webp": "/github.io/marcoproject/static/media/about_burger_img.b070d4e3fa86f224aa56.webp",
+    "static/media/fa-regular-400.woff2": "/github.io/marcoproject/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/content2.webp": "/github.io/marcoproject/static/media/content2.66a4eae844a7880152c2.webp",
+    "static/media/content1.webp": "/github.io/marcoproject/static/media/content1.61e292b1e2d63683e699.webp",
+    "static/media/content3.webp": "/github.io/marcoproject/static/media/content3.599672bec1106027ce37.webp",
+    "static/media/b1.jpg.webp": "/github.io/marcoproject/static/media/b1.jpg.28b26fcbafa6247bcbdb.webp",
+    "static/media/fa-v4compatibility.ttf": "/github.io/marcoproject/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/github.io/marcoproject/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/MAIN_LOGO.webp": "/github.io/marcoproject/static/media/MAIN_LOGO.e0c984845994a1223476.webp",
+    "static/media/user.png.webp": "/github.io/marcoproject/static/media/user.png.05fad8d424977e60fc9d.webp",
+    "index.html": "/github.io/marcoproject/index.html",
+    "main.724faed8.css.map": "/github.io/marcoproject/static/css/main.724faed8.css.map",
+    "main.00f663be.js.map": "/github.io/marcoproject/static/js/main.00f663be.js.map",
+    "453.4123e5dc.chunk.js.map": "/github.io/marcoproject/static/js/453.4123e5dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.724faed8.css",
+    "static/js/main.00f663be.js"
+  ]
+}
