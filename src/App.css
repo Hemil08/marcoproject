@@ -855,7 +855,84 @@ textarea {
   background-color:black; 
 }
 
+.icon{
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
 /* Add responsiveness for smaller screens */
+@media screen and (max-width: 992px){
+
+  .nav_section{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+  }
+
+
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 80px;
+    transform: translateX(-100%); 
+    transition: transform 0.5s ease-in-out;
+    height: 90%;
+  }
+
+  .scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    transform: translateX(-100%); 
+    transition: transform 0.5s ease-in-out;
+    height: 90%;
+  }
+
+  .open{
+    transform: translateX(0);
+  }
+
+  .navbar a:last-child{
+    padding-bottom: 40px;
+  }
+
+
+  .icon{
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+  }
+
+  a{
+    align-self: center;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .message_section {
     flex-direction: column; /* Stack vertically on small screens */
