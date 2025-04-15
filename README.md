@@ -1,4 +1,4 @@
-Marro Responsive Responsive Website Clone
+Marco Responsive Responsive Website Clone
 
 This is a cloned version of the Marco responsive Responsive website. The project aims to replicate the design and functionality of the original Macro website using modern web development technologies.
 
